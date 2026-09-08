@@ -29,6 +29,7 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
+    "https://001-4e8.pages.dev/sub?token=a72771872896848b68dd1c87727df377",
 ]
 
 OUTPUT_DIR = "output"
