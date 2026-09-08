@@ -30,6 +30,8 @@ SOURCE_URLS = [
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
     "https://001-4e8.pages.dev/sub?token=a72771872896848b68dd1c87727df377",
+    "https://sdwf-amq.pages.dev/3305c285-8d55-4f52-a3b0-2a582f5ffd59/sub?name=CFBox",
+    "https://zhanglk.cc.cd/sub?token=4c500a485967fb2a8c3b71caab26473a",
 ]
 
 OUTPUT_DIR = "output"
