@@ -18,20 +18,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
   udp: true
-- name: 🇮🇩 ID 03 - xiaohe
-  type: vless
-  server: 15.232.155.235
-  port: 443
-  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zhanglk.cc.cd
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
-    headers:
-      Host: zhanglk.cc.cd
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,7 +25,6 @@ proxy-groups:
   - AUTO
   - 🇮🇩 ID 01 - xiaohe
   - 🇮🇩 ID 02 - xiaohe
-  - 🇮🇩 ID 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -47,6 +32,5 @@ proxy-groups:
   proxies:
   - 🇮🇩 ID 01 - xiaohe
   - 🇮🇩 ID 02 - xiaohe
-  - 🇮🇩 ID 03 - xiaohe
 rules:
 - MATCH,PROXIES
