@@ -4,30 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇽 MX 01 (家宽) - xiaohe
+- name: 🇻🇳 VN 01 - xiaohe
   type: vless
-  server: 198.71.189.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 160.25.74.227
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: zhanglk.cc.cd
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
     headers:
-      Host: vms.lifetime04.workers.dev
+      Host: zhanglk.cc.cd
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇽 MX 01 (家宽) - xiaohe
+  - 🇻🇳 VN 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇽 MX 01 (家宽) - xiaohe
+  - 🇻🇳 VN 01 - xiaohe
 rules:
 - MATCH,PROXIES
