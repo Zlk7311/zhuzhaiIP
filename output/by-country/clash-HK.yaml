@@ -5,22 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  type: vmess
-  server: nomino.11hi8itbaf.workers.dev
+  type: vless
+  server: 47.57.181.17
   port: 443
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-  alterId: 0
-  cipher: auto
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nomino.11hi8itbaf.workers.dev
+  servername: zhanglk.cc.cd
   network: ws
   ws-opts:
-    path: /yoga-suggesting-recording-calls.trycloudflare.com/3aa71202-a099-49c1-99fc-6662f3335369-vm
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
     headers:
-      Host: nomino.11hi8itbaf.workers.dev
+      Host: zhanglk.cc.cd
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  type: vless
+  server: nrtcfdns.zone.id
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: vmess
   server: 47.83.19.148
   port: 443
@@ -36,18 +48,20 @@ proxies:
     path: /ws-vmess
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  server: nrt.xxxxxxxx.nyc.mn
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 001-4e8.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -56,6 +70,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -64,5 +79,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
 rules:
 - MATCH,PROXIES
