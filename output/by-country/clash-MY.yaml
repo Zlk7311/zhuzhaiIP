@@ -19,17 +19,18 @@ proxies:
       Host: 38.60.168.98
 - name: 🇲🇾 MY 02 - xiaohe
   type: vless
-  server: 38.60.168.98
-  port: 2087
-  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
+  server: 47.254.206.196
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: zhanglk.cc.cd
   network: ws
   ws-opts:
-    path: /db55c40bbc75
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
     headers:
-      Host: 38.60.168.98
+      Host: zhanglk.cc.cd
 proxy-groups:
 - name: PROXIES
   type: select
