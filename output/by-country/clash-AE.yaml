@@ -6,60 +6,124 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   type: vless
-  server: 172.104.86.229
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  type: vless
-  server: 66.245.219.95
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  type: vless
-  server: 151.241.129.79
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  type: vless
-  server: 104.24.219.225
-  port: 443
-  uuid: c2c3de71-5ec5-430c-b096-81969b16ff8d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdnfree.abdollahvand2.ir
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cdnfree.abdollahvand2.ir
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  type: vless
+  server: 103.85.27.26
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  type: vless
+  server: 137.220.225.111
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  type: vless
+  server: 45.77.131.33
+  port: 8443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zhanglk.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
+    headers:
+      Host: zhanglk.cc.cd
+- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  type: vless
+  server: 142.91.109.150
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
+  type: vless
+  server: 104.238.148.149
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zhanglk.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
+    headers:
+      Host: zhanglk.cc.cd
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +133,11 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +147,10 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 09 - xiaohe
 rules:
 - MATCH,PROXIES
