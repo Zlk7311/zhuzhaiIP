@@ -19,43 +19,42 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 188.208.110.35
+  port: 2096
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: zhanglk.cc.cd
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
     headers:
-      Host: uae.unixzone.us
+      Host: zhanglk.cc.cd
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
   type: vless
   server: 89.125.147.199
@@ -72,42 +71,45 @@ proxies:
   type: vless
   server: 89.125.147.199
   port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: d5f1aa27-43d0-4f2e-bca2-140f3ec2aa62
+  server: 107.148.118.151
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  type: vless
+  server: 64.176.35.237
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
 - name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
   type: vless
-  server: 140.235.37.203
+  server: 35.74.79.196
   port: 443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
