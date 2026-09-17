@@ -18,6 +18,32 @@ proxies:
   client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   type: vless
+  server: 68.233.107.29
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zhanglk.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
+    headers:
+      Host: zhanglk.cc.cd
+- name: 🇮🇳 印度 (India) 03 - xiaohe
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 04 - xiaohe
+  type: vless
   server: 194.61.31.126
   port: 2053
   uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
@@ -28,7 +54,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 03 - xiaohe
+- name: 🇮🇳 印度 (India) 05 - xiaohe
   type: vless
   server: 194.61.31.126
   port: 2053
@@ -48,6 +74,8 @@ proxy-groups:
   - 🇮🇳 印度 (India) 01 - xiaohe
   - 🇮🇳 印度 (India) 02 - xiaohe
   - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,5 +84,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 01 - xiaohe
   - 🇮🇳 印度 (India) 02 - xiaohe
   - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
 rules:
 - MATCH,PROXIES
