@@ -19,29 +19,20 @@ proxies:
     headers:
       Host: hk1.69lover.my
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  type: vmess
-  server: 47.76.44.32
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 116.49.177.246
+  port: 8443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 93ucrn4i0PffUAbk.v.3dns.vip
+  servername: zhanglk.cc.cd
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
     headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+      Host: zhanglk.cc.cd
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  type: ss
-  server: 181.215.18.196
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: manm1wouaeic9db3
-  udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   type: vless
   server: 47.238.210.5
   port: 13779
@@ -53,37 +44,55 @@ proxies:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
   servername: tesla.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  type: vless
+  server: 47.243.54.45
+  port: 18080
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: zhanglk.cc.cd
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: zhanglk.cc.cd
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  type: vless
+  server: 2.27.109.12
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zhanglk.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
+    headers:
+      Host: zhanglk.cc.cd
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  type: vless
+  server: 154.36.162.210
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zhanglk.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
+    headers:
+      Host: zhanglk.cc.cd
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  type: ss
+  server: 103.136.150.119
+  port: 30222
+  cipher: aes-256-gcm
+  password: 72553320ae6bcc8f
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -95,6 +104,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -106,5 +116,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
 rules:
 - MATCH,PROXIES
