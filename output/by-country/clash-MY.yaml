@@ -14,17 +14,33 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇲🇾 MY 02 - xiaohe
+  type: vless
+  server: 149.118.144.163
+  port: 443
+  uuid: fdee183a-bd98-4992-892a-1e3d21096d17
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zhanglk.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.CMLiussss.Net.ProxyIP.SG.CMLiussss.Net,ProxyIP.JP.CMLiussss.Net?ed=2560
+    headers:
+      Host: zhanglk.cc.cd
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇲🇾 MY 01 - xiaohe
+  - 🇲🇾 MY 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇲🇾 MY 01 - xiaohe
+  - 🇲🇾 MY 02 - xiaohe
 rules:
 - MATCH,PROXIES
