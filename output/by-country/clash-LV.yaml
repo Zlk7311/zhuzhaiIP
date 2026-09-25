@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: 195.123.211.204
-  port: 81
+  server: 31.57.92.211
+  port: 8443
   uuid: fdee183a-bd98-4992-892a-1e3d21096d17
   udp: true
   tls: true
