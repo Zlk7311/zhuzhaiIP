@@ -6,6 +6,34 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   type: vless
+  server: linear.app
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEEBwZWUFcDBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAVAkg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  type: vless
+  server: p.etime.vip
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEHBQJbVlgBAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAfBUg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  type: vless
   server: saas.sin.fan
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
@@ -15,24 +43,10 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDAQtRXVMGAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAUDEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUIAQRTV1kKAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEYBEg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  type: vless
-  server: securecircle.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgCBwdQUlMADB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEaAEg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   type: vless
   server: uspto.gov
   port: 443
@@ -46,23 +60,9 @@ proxies:
     path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDAAdbUlgBDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEdDUg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
-  type: vless
-  server: cf.nyanya.moe
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgHAwVXU1EKDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcUDEg=
-    headers:
-      Host: 001-4e8.pages.dev
 - name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   type: vless
-  server: p.etime.vip
+  server: cdn.ctn32.us.kg
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -71,7 +71,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEHBQJbVlgBAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAfBUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUFBgdQVlACDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
@@ -90,7 +90,7 @@ proxies:
       Host: 001-4e8.pages.dev
 - name: 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
   type: vless
-  server: www.vmware.com
+  server: p.etime.vip
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -99,12 +99,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgHCQtWXVEBDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFofBUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUDBwNVV1UGAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoUDUg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
   type: vless
-  server: cf.877774.xyz
+  server: cf.nyanya.moe
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -113,7 +113,21 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgIBgpSVVcCAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEUBEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgHAwVXU1EKDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcUDEg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDAQtRXVMGAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAUDEg=
     headers:
       Host: 001-4e8.pages.dev
 proxy-groups:
@@ -129,6 +143,7 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -142,5 +157,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
